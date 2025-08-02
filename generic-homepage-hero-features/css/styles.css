@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p, nav a, button {
+    font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem; 
+}
+
+.nav-list li {
+    list-style: none;
+}
